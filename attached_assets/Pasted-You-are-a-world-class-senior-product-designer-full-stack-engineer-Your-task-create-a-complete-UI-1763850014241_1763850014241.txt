@@ -1,0 +1,110 @@
+You are a world-class senior product designer + full-stack engineer.
+Your task: create a complete UI & UX layout for a web application called UniChoice AI.
+The application helps students choose the best university using enhanced global ranking data, admission info, tuition fees, deadlines, program strengths, and real alumni cases.
+⚠️ IMPORTANT:
+Keep all features identical to the original UniChoice (I will provide the data myself later).
+Your job is ONLY to generate UI, UX and functional flow.
+Output must include extremely high-quality visual design, layout, color system, components, and interactions.
+The result must be premium level, like Apple / Google design standards.
+===================================================
+🎨 DESIGN REQUIREMENTS
+STYLE:
+Elegant, futuristic, premium aesthetic.
+Combine glassmorphism + soft shadows + gradient accents.
+Smooth rounded corners (16–28px), semi-transparent layers, frosted blur.
+Modern Google Material You + Neumorphism mix.
+Minimalistic, luxurious, high contrast typography.
+COLOR PALETTE:
+Background: #0F1115 with subtle noise.
+Primary gradient: #6C47FF → #9D4CFF (45°).
+Accent: electric blue (#33C8FF) for high-value elements.
+Text: Pure white (#FFFFFF and #E6E6E6)
+Surfaces: rgba(255,255,255,0.06–0.12) with blur(28px)
+Shadows: soft, layered, atmospheric.
+TYPOGRAPHY:
+Headline: Inter / SF Pro Display extra-bold 48–64px
+Subtitles: Inter medium 20–28px
+Body text: Inter regular 16–18px with 70–80% opacity
+ANIMATIONS:
+Micro-interactions: hover glow, card lift, blur shift
+Page transitions: 250ms material fade-slide
+Search and sort interactions: frictionless
+===================================================
+📦 CORE FEATURES TO IMPLEMENT
+Create UI/UX for all the following components:
+Home Page
+Hero section: large glowing gradient title
+Search bar with auto-complete (Search universities...)
+Interactive world map heat-highlighting countries with top universities
+CTA: “Find my perfect university”
+University Cards Grid
+Adaptive 3–4 column layout
+Card includes:
+Logo
+Name
+Country / City
+Rank number with badge
+Tuition (converted to USD)
+Strong majors (chips)
+Hover animation: glass lift
+Filters & Sorting
+Filter drawer or sidebar with:
+Country
+Tuition range slider
+Degree level selector (Bachelor / Master / PhD)
+Strong majors (multiple selection)
+Scholarships toggle
+Sorting:
+by ranking
+by tuition
+by popularity
+by “best fit”
+University Details Page
+Large banner with university photo + frosted overlay
+Logo + info sidebar panel
+Key sections:
+• Summary
+• Majors available
+• Strong majors highlight
+• Tuition with currency toggle
+• Admission requirements (GPA, TOEFL/IELTS, GRE/SAT/ACT)
+• Important deadlines (multiple rounds)
+• Alumni success cases (cards)
+• Contact links
+AI Advisor Panel
+Floating bottom-right assistant
+User can ask:
+“Which universities match my profile?”
+“Compare Harvard vs MIT”
+“Show schools with scholarships in Canada”
+Design: glowing orb with soft pulse.
+Comparison Table
+Side-by-side compare up to 4 universities
+Columns auto-resize with data
+Sticky header
+Gradient highlight of best values
+Dark Mode Only (default)
+Must look visually stunning on OLED screens.
+===================================================
+📱 RESPONSIVE DESIGN
+Desktop: full grid experience
+Tablet: tightened two-column layout
+Mobile:
+Single-column
+Bottom navigation
+Filters as a modal sheet
+Sticky search bar
+===================================================
+OUTPUT REQUIRED
+Provide:
+Full UI descriptions for each screen
+Component structure (buttons, inputs, cards, navigation, modals)
+Color & spacing tokens
+Animations and interaction behavior
+Wireframe + high-fidelity design description
+Implementation guidance for Google AI Studio UI Builder
+Optionally: auto-generate HTML/CSS for layout skeleton.
+DO NOT place placeholder text like Lorem Ipsum.
+The structure must be production-ready.
+You will receive the data model later, generate everything in a data-agnostic way.
+BEGIN NOW.
