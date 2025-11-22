@@ -39,7 +39,25 @@ export default function Home() {
 
   const availableCountries = useMemo(() => {
     const countries = new Set(universities.map(u => u.countryFull));
-    return Array.from(countries).sort();
+    const countryList = Array.from(countries);
+    
+    const priorityCountries = [
+      "United States",
+      "United Kingdom", 
+      "Canada",
+      "Australia",
+      "Germany",
+      "France",
+      "China",
+      "Japan",
+      "Netherlands",
+      "Switzerland"
+    ];
+    
+    const priority = countryList.filter(c => priorityCountries.includes(c));
+    const others = countryList.filter(c => !priorityCountries.includes(c)).sort();
+    
+    return [...priority, ...others];
   }, [universities]);
 
   const availableMajors = useMemo(() => {
